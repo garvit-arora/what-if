@@ -1,0 +1,13 @@
+.vendor/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.log
+data/*.rl
+data/*.rl-*
+apps/web/node_modules/
+apps/web/.next/
+.env
+/login.png
+

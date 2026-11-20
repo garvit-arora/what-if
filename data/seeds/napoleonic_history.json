@@ -1,0 +1,58 @@
+{
+  "dataset_version": "napoleonic-europe-1.0.0",
+  "world": {"id": "world_napoleonic_europe", "name": "Revolutionary and Napoleonic Europe", "start_year": 1789, "end_year": 1848},
+  "sources": [
+    {"id": "src_wikidata", "title": "Wikidata", "url": "https://www.wikidata.org/", "kind": "structured_metadata"},
+    {"id": "src_versailles_napoleon", "title": "Versailles: Napoleon I", "url": "https://en.chateauversailles.fr/discover/history/great-characters/napoleon-i", "kind": "institutional_history"},
+    {"id": "src_versailles_period", "title": "Versailles: French Revolution to interwar period", "url": "https://en.chateauversailles.fr/discover/resources/versailles-french-revolution-interwar-period", "kind": "institutional_history"},
+    {"id": "src_britannica_revolution", "title": "Encyclopaedia Britannica: French Revolution", "url": "https://www.britannica.com/event/French-Revolution", "kind": "reference"},
+    {"id": "src_britannica_napoleon", "title": "Encyclopaedia Britannica: Napoleon I", "url": "https://www.britannica.com/biography/Napoleon-I", "kind": "reference"}
+  ],
+  "people": [
+    {"id":"person_napoleon","name":"Napoleon Bonaparte","wikidata_id":"Q517"},
+    {"id":"person_louis_xvi","name":"Louis XVI","wikidata_id":"Q7732"},
+    {"id":"person_robespierre","name":"Maximilien Robespierre","wikidata_id":"Q44197"},
+    {"id":"person_louis_xviii","name":"Louis XVIII","wikidata_id":"Q7750"}
+  ],
+  "institutions": [
+    {"id":"inst_national_convention","name":"National Convention"},
+    {"id":"inst_directory","name":"French Directory"},
+    {"id":"inst_consulate","name":"French Consulate"},
+    {"id":"inst_first_empire","name":"First French Empire"}
+  ],
+  "places": [{"id":"place_france","name":"France"},{"id":"place_paris","name":"Paris"},{"id":"place_waterloo","name":"Waterloo"},{"id":"place_vienna","name":"Vienna"}],
+  "events": [
+    {"id":"event_french_revolution_1789","title":"French Revolution begins","date":"1789-05-05","category":"revolution","wikidata_id":"Q6534","description":"The revolutionary period in France begins in 1789."},
+    {"id":"event_bastille_1789","title":"Storming of the Bastille","date":"1789-07-14","category":"revolution","wikidata_id":"Q208318","description":"Parisian insurgents seize the Bastille."},
+    {"id":"event_republic_1792","title":"First French Republic established","date":"1792-09-22","category":"government","wikidata_id":"Q58296","description":"The Convention establishes the French Republic."},
+    {"id":"event_louis_execution_1793","title":"Execution of Louis XVI","date":"1793-01-21","category":"political","wikidata_id":"Q163211","description":"Louis XVI is executed in Paris."},
+    {"id":"event_reign_terror_1793","title":"Reign of Terror","date":"1793-09-05","end_date":"1794-07-27","category":"political","wikidata_id":"Q201038","description":"A period of revolutionary repression and political violence."},
+    {"id":"event_fall_robespierre_1794","title":"Fall of Robespierre","date":"1794-07-27","category":"political","wikidata_id":"Q1479241","description":"Robespierre is overthrown during the Thermidorian Reaction."},
+    {"id":"event_directory_1795","title":"French Directory established","date":"1795-11-02","category":"government","wikidata_id":"Q191066","description":"The Directory becomes France's executive government."},
+    {"id":"event_italian_campaign_1796","title":"Napoleon's first Italian campaign","date":"1796-03-27","end_date":"1797-10-17","category":"war","wikidata_id":"Q1548497","description":"Bonaparte commands the Army of Italy."},
+    {"id":"event_coup_18_brumaire_1799","title":"Coup of 18 Brumaire","date":"1799-11-09","end_date":"1799-11-10","category":"political","wikidata_id":"Q620965","description":"The coup overthrows the Directory and brings Napoleon to power."},
+    {"id":"event_consulate_1799","title":"French Consulate established","date":"1799-11-10","category":"government","wikidata_id":"Q180098","description":"The Consulate replaces the Directory; Napoleon becomes First Consul."},
+    {"id":"event_napoleonic_code_1804","title":"Napoleonic Code promulgated","date":"1804-03-21","category":"law","wikidata_id":"Q216460","description":"France promulgates the Civil Code."},
+    {"id":"event_empire_1804","title":"Napoleon becomes Emperor","date":"1804-05-18","category":"government","wikidata_id":"Q186953","description":"Napoleon assumes the title Emperor of the French."},
+    {"id":"event_austerlitz_1805","title":"Battle of Austerlitz","date":"1805-12-02","category":"war","wikidata_id":"Q152350","description":"Napoleon defeats Russian and Austrian forces."},
+    {"id":"event_peninsular_war_1808","title":"Peninsular War begins","date":"1808-05-02","category":"war","wikidata_id":"Q186741","description":"War begins in the Iberian Peninsula against Napoleonic occupation."},
+    {"id":"event_russia_invasion_1812","title":"French invasion of Russia","date":"1812-06-24","category":"war","wikidata_id":"Q189266","description":"Napoleon's Grande Armée invades the Russian Empire."},
+    {"id":"event_abdication_1814","title":"Napoleon's first abdication","date":"1814-04-06","category":"political","wikidata_id":"Q3068354","description":"Napoleon abdicates and is exiled to Elba."},
+    {"id":"event_bourbon_restoration_1814","title":"Bourbon Restoration begins","date":"1814-05-03","category":"government","wikidata_id":"Q585124","description":"Louis XVIII enters Paris as the monarchy is restored."},
+    {"id":"event_congress_vienna_1814","title":"Congress of Vienna","date":"1814-09-18","end_date":"1815-06-09","category":"diplomacy","wikidata_id":"Q131733","description":"European powers negotiate a post-Napoleonic settlement."},
+    {"id":"event_hundred_days_1815","title":"Hundred Days","date":"1815-03-20","end_date":"1815-07-08","category":"political","wikidata_id":"Q207318","description":"Napoleon briefly returns to power."},
+    {"id":"event_waterloo_1815","title":"Battle of Waterloo","date":"1815-06-18","category":"war","wikidata_id":"Q48314","description":"Napoleon is defeated by the allied armies at Waterloo."},
+    {"id":"event_july_revolution_1830","title":"July Revolution","date":"1830-07-27","end_date":"1830-07-29","category":"revolution","wikidata_id":"Q186242","description":"Revolution overthrows Charles X in France."},
+    {"id":"event_revolution_1848","title":"French Revolution of 1848","date":"1848-02-22","end_date":"1848-02-24","category":"revolution","wikidata_id":"Q464256","description":"Revolution ends the July Monarchy and establishes the Second Republic."}
+  ],
+  "participants": [
+    {"person_id":"person_louis_xvi","event_id":"event_louis_execution_1793"},{"person_id":"person_robespierre","event_id":"event_reign_terror_1793"},{"person_id":"person_napoleon","event_id":"event_italian_campaign_1796"},{"person_id":"person_napoleon","event_id":"event_coup_18_brumaire_1799"},{"person_id":"person_napoleon","event_id":"event_consulate_1799"},{"person_id":"person_napoleon","event_id":"event_empire_1804"},{"person_id":"person_napoleon","event_id":"event_russia_invasion_1812"},{"person_id":"person_napoleon","event_id":"event_waterloo_1815"}
+  ],
+  "mechanisms": [
+    {"id":"mech_coup_ends_directory","title":"Coup removes Directory government","mode":"ALL","certainty":"documented","inputs":["event_coup_18_brumaire_1799"],"output":"event_consulate_1799","source_ids":["src_versailles_period"],"reason":"The institutional source identifies the coup as overthrowing the Directory and installing the Consulate."},
+    {"id":"mech_consulate_path_to_empire","title":"Consular power is a modeled prerequisite to Napoleon's imperial accession","mode":"ALL","certainty":"model_assumption","inputs":["event_consulate_1799"],"output":"event_empire_1804","source_ids":["src_versailles_napoleon"],"reason":"The sequence is documented, but counterfactual necessity is a model assumption."},
+    {"id":"mech_reform_context_code","title":"Consular reform context supports Civil Code","mode":"ALL","certainty":"model_assumption","inputs":["event_consulate_1799"],"output":"event_napoleonic_code_1804","source_ids":["src_britannica_napoleon"],"reason":"The Code belongs to Napoleon's reform program; exclusive counterfactual dependence is uncertain."},
+    {"id":"mech_empire_wars_abdication","title":"Imperial war and Russian campaign precede first abdication","mode":"ALL","certainty":"model_assumption","inputs":["event_empire_1804","event_russia_invasion_1812"],"output":"event_abdication_1814","source_ids":["src_versailles_period"],"reason":"The source links continual wars to imperial weakening; this grouping is an explicit model simplification."},
+    {"id":"mech_hundred_days_waterloo","title":"Hundred Days enables Waterloo campaign","mode":"ALL","certainty":"documented","inputs":["event_hundred_days_1815"],"output":"event_waterloo_1815","source_ids":["src_versailles_period"],"reason":"Waterloo occurred during Napoleon's Hundred Days return."}
+  ]
+}
